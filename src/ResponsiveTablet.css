@@ -1,0 +1,17 @@
+@media only screen and (min-width:481px) and (max-width:768px){
+    .sec-1{
+        margin-top:8%;
+        justify-content:space-between;
+
+    }
+    .sec-1-h{
+        width: 390px;
+        font-size:6vw;
+
+
+    }
+    .sec-1-s{
+        width: 280px;
+        font-size:3vw;
+    }
+}

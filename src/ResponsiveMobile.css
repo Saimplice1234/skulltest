@@ -1,0 +1,50 @@
+@media only screen and (min-width:300px) and (max-width:480px){
+    .sec-1{
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+    .poster{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logo-nav{
+        font-size:1em;
+    }
+    .Dbutton{
+        width:13px;
+        height:13px;
+    }
+    .Avatar{
+        width:13px;
+        height:13px;
+    }
+    .ButtonBlur{
+        display:none;
+    }
+    .sec-1-a{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .sec-1{
+        justify-content:center;
+        margin-top:4%;
+
+    }
+      
+    .sec-1-h{
+        width: 240px;
+        font-size:7vw;
+        text-align:center;
+    }
+    .sec-1-s{
+        width: 240px;
+        font-size:3vw;
+        text-align: center;
+    }
+
+}

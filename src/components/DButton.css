@@ -1,0 +1,17 @@
+.Dbutton{
+    color:white;
+    width:20px;
+    margin:0px;
+    margin-right:8px;
+    background-color:#ffffff;
+    border-radius:100%;
+    padding:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    transition:.2s;
+}
+.Dbutton:hover{
+    background-color:#ffffff77;
+}

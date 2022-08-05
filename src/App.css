@@ -1,0 +1,101 @@
+body{
+  background-color:rgb(0, 0, 0);
+}
+*{
+  padding:0px;
+  margin:0px;
+  user-select:none;
+}
+.App{
+  padding-left:3%;
+  padding-right:3%;
+}
+.sec-1{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-around;
+  font-weight:bolder;
+  background-color:rgba(255, 255, 255, 0.103);
+  border-radius:12px;
+}
+
+@media (max-width: 1011px) { 
+  .sec-1{
+    background-color:transparent;
+  }
+}
+
+.sec-1-h{
+  color:white;
+  font-weight:bolder;
+  font-size:2.2em;
+
+  width: 402px;
+  text-transform:capitalize;
+}
+.sec-1-s{
+  margin-top:4%;
+  color:white;
+  font-size:1.5em;
+
+  width: 402px;
+  text-align:justify;
+}
+
+
+
+.zbook-start{
+  margin-top:4%;
+  border:none;
+  background-color:rgba(245, 245, 245, 0.103);
+  color:rgb(245, 245, 245);
+  padding:12px;
+  border-radius:34px;
+  cursor: pointer;
+  transition:.3s;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+  width:170px;
+}
+.zbook-start:hover{
+  background-color:rgb(245, 245, 245);
+  color:black;
+}
+.zbook-start:hover img{
+  animation: rotation .5s linear;
+}
+.zbook-start img{
+  width: 22px;
+  
+}
+.zbook-start p{
+  padding-left:6%;
+  font-weight:bolder;
+}
+.poster{
+  max-width:84%;
+  animation: sh 1.5s infinite;
+}
+@keyframes sh{
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
