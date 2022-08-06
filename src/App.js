@@ -26,7 +26,7 @@ function App() {
         </div>
 
       </div>
-      <div style={{height:"65px"}}></div>
+      <div style={{height:"7px"}}></div>
 
       <div className="sec-1" style={{backgroundColor:"transparent"}}>
       <div>
@@ -40,7 +40,7 @@ function App() {
       
         
       </div>
-      <div style={{height:"15px"}}></div>
+      <div style={{height:"45px"}}></div>
      
     </div>
   );
