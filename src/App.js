@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import gem from './components/assets/gem.svg';
+import money from './components/assets/money.png';
 import poster from './components/assets/oster.png';
 import './ResponsiveMobile.css';
 import './ResponsiveTablet.css';
@@ -25,6 +26,21 @@ function App() {
         </div>
 
       </div>
+      <div style={{height:"65px"}}></div>
+
+      <div className="sec-1" style={{backgroundColor:"transparent"}}>
+      <div>
+          <img src={money} className="poster"/>
+        </div>
+      <div className='sec-1-a'>
+          <p className='sec-1-h'>Save your money and download the best books for free</p>
+          <p className='sec-1-s'>Save your money and get quality service with books from top rogramming book publishers such as oreill and ackt</p>
+          
+        </div>
+      
+        
+      </div>
+      <div style={{height:"15px"}}></div>
      
     </div>
   );
