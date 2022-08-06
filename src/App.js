@@ -1,7 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
 import gem from './components/assets/gem.svg';
-import poster from './components/assets/logo.png';
+import poster from './components/assets/oster.png';
 import './ResponsiveMobile.css';
 import './ResponsiveTablet.css';
 function App() {
@@ -25,7 +25,7 @@ function App() {
         </div>
 
       </div>
-      <div style={{height:'90px'}}></div>
+     
     </div>
   );
 }

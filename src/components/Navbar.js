@@ -11,7 +11,7 @@ class Navbar extends Component{
         return <div className="Navbar">
 
             <div className="logo-nav">
-                Skull Library
+                skull lib
             </div>
 
             

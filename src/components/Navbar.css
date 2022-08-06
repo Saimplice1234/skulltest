@@ -1,6 +1,6 @@
 @font-face {
     font-family:"league";
-    src: url("./assets/fonts/league/League.otf");
+    src: url("./assets/fonts/grinched/gr.otf");
 }
 .Navbar{
     display:flex;
@@ -17,7 +17,10 @@
 .logo-nav{
     cursor: pointer;
     font-family:"league";
-    font-size:1.3em;
+    font-size:2.3em;
+}
+.logo-nav img{
+    width:52px;
 }
 
 .btn-group{
