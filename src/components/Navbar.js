@@ -10,7 +10,7 @@ class Navbar extends Component{
     render(){
         return <div className="Navbar">
 
-            <div className="logo-nav">
+            <div className="logo-nav" data-aos="fade-in" data-aos-delay="300">
                 skull lib
             </div>
 

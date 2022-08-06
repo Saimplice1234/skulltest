@@ -4,7 +4,9 @@ import "./Footer.css";
 class Footer extends Component{
     render(){
         return <div className="Footer">
-            <p>Footer</p>
+            <div className="logo-footer">
+                Copyright - 2022
+            </div>
         </div>;
     }
 }
