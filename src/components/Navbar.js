@@ -16,7 +16,6 @@ class Navbar extends Component{
 
             
             <div className="btn-group">
-                <Dbutton/>
                 <Avatar/>
                 <ButtonBlur/>
                 
