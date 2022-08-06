@@ -1,5 +1,6 @@
 body{
   background-color:rgb(0, 0, 0);
+  scroll-behavior: smooth;
 }
 *{
   padding:0px;
@@ -78,6 +79,10 @@ body{
 .poster{
   max-width:84%;
   animation: sh 1.5s infinite;
+}
+.poster2{
+  max-width:84%;
+  animation: sh 3s infinite;
 }
 @keyframes sh{
   0% {
