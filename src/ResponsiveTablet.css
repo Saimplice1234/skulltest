@@ -14,4 +14,14 @@
         width: 280px;
         font-size:3vw;
     }
+    .testimonials{
+        
+        flex-direction:column; 
+        margin-top:8px;       
+    }
+    .testimonialsCard{
+        margin-right:0px;
+        margin-bottom:13px;
+        width:380px;
+    }
 }

@@ -51,5 +51,14 @@
         font-size:3vw;
         text-align: center;
     }
+    .testimonials{
+        
+        flex-direction:column; 
+        margin-top:8px;       
+    }
+    .testimonialsCard{
+        margin-right:0px;
+        margin-bottom:13px;
+    }
 
 }

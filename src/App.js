@@ -1,11 +1,14 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import gem from './components/assets/gem.svg';
-import money from './components/assets/money.png';
+import gem    from './components/assets/gem.svg';
+import Footer from './components/Footer';
+import share  from './components/assets/share.png';
+import money  from './components/assets/money.png';
 import poster from './components/assets/oster.png';
+import gift from './components/assets/gift.png';
 import './ResponsiveMobile.css';
 import './ResponsiveTablet.css';
-import Footer from './components/Footer';
+
 
 
 function App() {
@@ -44,6 +47,42 @@ function App() {
           </div>
 
       </div>
+
+      <div style={{height:"47px"}}></div>
+
+      <div className="testimonials">
+
+          <div className='testimonialsCard'>
+            <img src={gift} className='testimonialsAvatar'/>
+            <p>Lorem isum dolor citraem delare detras kira detro defari asadra kalem di u dum metra weri kaleum di nefat</p>
+          </div>
+
+          <div className='testimonialsCard'>
+            <img src={gift} className='testimonialsAvatar'/>
+            <p>Lorem isum dolor citraem delare detras kira detro defari asadra kalem di u dum metra weri kaleum di nefat</p>
+          </div>
+
+          <div className='testimonialsCard'>
+            <img src={gift} className='testimonialsAvatar'/>
+            <p>Lorem isum dolor citraem delare detras kira detro defari asadra kalem di u dum metra weri kaleum di nefat</p>
+          </div>
+
+
+      </div>
+
+      <div style={{height:"47px"}}></div>
+      <div className="sec-1" style={{backgroundColor:"transparent"}} >
+
+        <div className='sec-1-a'>
+          <p className='sec-1-h' data-aos="fade-down" data-aos-delay="300">Invite your friends and share the website to other rogrammers</p>
+          <p className='sec-1-s' data-aos="fade-in" data-aos-delay="310">lus on sera nombreux lus il y aura de nouveaux contenus sur la lateforme  du skull librarry</p>            
+        </div>
+        
+        <div data-aos="fade-down" data-aos-delay="400">
+            <img src={share} className="poster2" style={{animation:"none"}}/>
+        </div>
+      </div>
+
       <div style={{height:"37px"}}></div>
       <Footer/>
       <div style={{height:"17px"}}></div>
