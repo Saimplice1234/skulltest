@@ -50,7 +50,7 @@ function App() {
 
       <div style={{height:"47px"}}></div>
 
-      <div className="testimonials">
+      {/*<div className="testimonials">
 
           <div className='testimonialsCard'>
             <img src={gift} className='testimonialsAvatar'/>
@@ -68,7 +68,7 @@ function App() {
           </div>
 
 
-      </div>
+  </div> */}
 
       <div style={{height:"47px"}}></div>
       <div className="sec-1" style={{backgroundColor:"transparent"}} >
