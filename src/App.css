@@ -19,7 +19,18 @@ body{
   font-weight:bolder;
   background-color:rgba(255, 255, 255, 0.103);
   border-radius:12px;
+  padding: 44px;
 }
+.sec-2{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-around;
+  font-weight:bolder;
+  background-color:rgba(255, 255, 255, 0.103);
+  border-radius:12px;
+}
+
 
 @media (max-width: 1011px) { 
   .sec-1{

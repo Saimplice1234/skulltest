@@ -4,7 +4,7 @@ import gem    from './components/assets/gem.svg';
 import Footer from './components/Footer';
 import share  from './components/assets/share.png';
 import money  from './components/assets/money.png';
-import poster from './components/assets/oster.png';
+import poster from './components/assets/strange.png';
 import gift from './components/assets/gift.png';
 import './ResponsiveMobile.css';
 import './ResponsiveTablet.css';
@@ -35,7 +35,7 @@ function App() {
       </div>
       <div style={{height:"7px"}}></div>
 
-      <div className="sec-1" style={{backgroundColor:"transparent"}} >
+      <div className="sec-2" style={{backgroundColor:"transparent"}} >
 
           <div data-aos="fade-down" data-aos-delay="400">
               <img src={money} className="poster2"/>
